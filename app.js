@@ -1,4 +1,4 @@
-/*let arrStd = ["khalil", "rafi", "waliullah"];
+let arrStd = ["khalil", "rafi", "waliullah"];
 
 arrStd.push("safiullah");
 console.log(arrStd);
@@ -68,26 +68,26 @@ console.log(countrys);
 
 let arr = [12, 30, 50, 80];
 
-// const para = document.querySelector("#para");
-// const display = document.querySelector("#display");
+const para = document.querySelector("#para");
+const display = document.querySelector("#display");
 
-// display.addEventListener("click", () => {
-//     if (getComputedStyle(para).display === "none") {
-//         para.style.display = 'block'
-//         console.log("paara shown");
-//     } else {
-//         para.style.display = 'none'
-//         console.log("not hidden");
-//   }
-// });
-*/
+display.addEventListener("click", () => {
+    if (getComputedStyle(para).display === "none") {
+        para.style.display = 'block'
+        console.log("paara shown");
+    } else {
+        para.style.display = 'none'
+        console.log("not hidden");
+  }
+});
+
 
 // 8. Convert the string "apple,banana,mango" into an array using split().
 
-const newArr = "apple,banana,mango";
+const someArr = "apple,banana,mango";
 
-newArr.split();
-console.log(newArr.split(" "));
+someArr.split();
+console.log(someArr.split(" "));
 
 //9. Join an array of characters ['J','S'] into a single string using join().
 const joinArr = ["j", "s"];
@@ -165,7 +165,7 @@ const abc = arrABC.reverse();
 console.log(abc.join("-"));
 
 // 19. Check if "Karachi" exists in an array using indexOf() and show its index.
-const cities = [
+const mixedCities = [
   "peshawar",
   "islamabad",
   "punjab",
@@ -175,9 +175,9 @@ const cities = [
   "sindh",
   "balochistan",
 ];
-console.log(cities);
+console.log(mixedCities);
 console.log(
-  `the index Of Karachi in Array is => "${cities.indexOf("Karachi")}"`
+  `the index Of Karachi in Array is => "${mixedCities.indexOf("Karachi")}"`
 );
 
 // 20. Concatenate two arrays of even and odd numbers using concat() and then reverse them.
